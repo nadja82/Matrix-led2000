@@ -24,8 +24,8 @@ Adafruit_Protomatter matrix(64, 6, 1, rgbPins, 5, addrPins,
 
 // ====== WLAN (nur STA/DHCP) ======
 // Trage hier dein WLAN ein:
-const char* WIFI_SSID = "Wilma2001";
-const char* WIFI_PASS = "dein_passwort";
+const char* WIFI_SSID = "SSID";
+const char* WIFI_PASS = "14D12k82";
 
 // ====== Webserver ======
 WebServer server(80);
