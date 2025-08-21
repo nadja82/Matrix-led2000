@@ -15,8 +15,8 @@ The Pico connects to Wi-Fi using **DHCP** (no mDNS) and shows its assigned IP on
 ---
 
 ## Tested Environment
-- **ESP8266**: 
-- **Board**: RESP8266
+- **ESP8266 NODE MCU**: 
+- **Board**: ESP8266
 - **Libraries**:
   - `Adafruit_Protomatter`
   - `Adafruit_GFX`
