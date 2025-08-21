@@ -18,8 +18,8 @@
 #include <WiFiManager.h> // von tzapu
 
 // ========= Benutzer: bevorzugtes WLAN eintragen =========
-#define PREFERRED_SSID "Wilma2001_Ext"
-#define PREFERRED_PASS "14D12k82"   // <--- HIER setzen
+#define PREFERRED_SSID "SSID"
+#define PREFERRED_PASS "PWD"   // <--- HIER setzen
 // ========================================================
 
 // ===== LED/Matrix =====
