@@ -1,7 +1,7 @@
 # Matrix-led2000 — led2002.ino
 
 ## Overview
-This project is a sketch for the **SEENGREAT 64×64 HUB75 (P3)** LED panel driven by a **Raspberry Pi Pico 2W**.  
+This project is a sketch for the **SEENGREAT 64×64 HUB75 (P3)** LED panel driven by a **ESP8266*.  
 It displays scrolling text on the panel and provides a simple **web interface** to configure:
 
 - Text (up to 200 characters)  
@@ -15,8 +15,8 @@ The Pico connects to Wi-Fi using **DHCP** (no mDNS) and shows its assigned IP on
 ---
 
 ## Tested Environment
-- **Arduino Core**: Earle Philhower Raspberry Pi Pico (RP2040)  
-- **Board**: Raspberry Pi Pico 2W  
+- **ESP8266**: 
+- **Board**: RESP8266
 - **Libraries**:
   - `Adafruit_Protomatter`
   - `Adafruit_GFX`
@@ -27,7 +27,7 @@ The Pico connects to Wi-Fi using **DHCP** (no mDNS) and shows its assigned IP on
 ## Hardware Setup
 
 **Panel:** SEENGREAT HUB75 64×64 (P3)  
-**Controller:** Raspberry Pi Pico 2W  
+**Controller:** ESP8266
 
 ### Pin Mapping
 ```
@@ -112,7 +112,7 @@ const char* WIFI_PASS = "YOUR_PASSWORD";
 ---
 
 ## Build Instructions
-1. In Arduino IDE, select board **Raspberry Pi Pico 2W** (Earle Philhower Core).  
+1. In Arduino IDE, select board **ESP8266* (Earle Philhower Core).  
 2. Install libraries **Adafruit_Protomatter** and **Adafruit_GFX** via Library Manager.  
 3. Open the sketch, enter Wi-Fi credentials, compile and upload.  
 4. Connect the panel as described above and ensure stable power supply.  
